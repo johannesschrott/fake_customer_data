@@ -18,12 +18,15 @@ The created CSV file features the following columns:
 * `Phone`        - Phone number of a customer
 * `Mobile`       - Mobile phone number of a customer
 
-To use the provided script the following steps must be followed:
+To use the provided script for generating, the following steps must be followed:
 * Clone the repository
 * Run `pip install -r requirements.txt` in the local repository
 * Run `python3 create_customer_data.py` to install the dependencies of the script
 * The CSV file will be generated and stored to `fake_customer_data.csv` in the local repository 
 
-
 As configured in the constant `NUMBER_OF_ROWS_TO_GENERATE` of the script, 10000 rows are created per default. 
 In case a different number of rows should be generated, this constant must be adjusted.  
+
+
+Alternatively, a CSV file containing the faked customer data with missing values can be downloaded from 
+[the release section of this repository](https://github.com/johannesschrott/fake_customer_data/releases).
