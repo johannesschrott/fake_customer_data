@@ -21,7 +21,7 @@ The created CSV file features the following columns:
 To use the provided script the following steps must be followed:
 * Clone the repository
 * Run `pip install -r requirements.txt` in the local repository
-* Run `python3 create_customer_data.py`
+* Run `python3 create_customer_data.py` to install the dependencies of the script
 * The CSV file will be generated and stored to `fake_customer_data.csv` in the local repository 
 
 
