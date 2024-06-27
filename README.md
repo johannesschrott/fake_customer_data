@@ -6,8 +6,8 @@ values.
 The data created is aimed to be used as sample data to demonstrate how powerful data quality tools are with respect 
 to measuring and aggregating in the DQ dimension completeness.
 Consequently, the actual values created are not important, in contrast to the missing values.
-Each column has a probability of $20 %$ to be empty in every row created, i.e., to contain a missing value.
-Following this, the probability that a completely empty row is generated is $0.2^8 = 0.00000256$.
+Each column has a probability of $0.2$ (i.e., $20 \\%$) to be empty in every row created, i.e., to contain a missing value.
+Following this, the probability that a completely empty row is generated is $0.2^8 = 0.00000256$ (i.e., $0.000256 \\%$).
 
 The created CSV file features the following columns:
 * `CustomerID`   - Identifier of a customer
