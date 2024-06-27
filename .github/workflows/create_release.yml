@@ -21,6 +21,9 @@ jobs:
           python-version: '3.12'
           # Optional - x64 or x86 architecture, defaults to x64
           architecture: 'x64'
+      - name: Install package dependencies # This would actually build your project, using zip for an example artifact
+        run: |
+          pip install -r requirements.txt
       - name: Create dataset # This would actually build your project, using zip for an example artifact
         run: |
           python3 create_customer_data.py
